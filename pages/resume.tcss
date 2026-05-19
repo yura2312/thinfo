@@ -1,0 +1,34 @@
+/* Progress bars */
+/* CPU/RAM progress bars */
+#cpu_bar,
+#ram_bar {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+/* LOW = Green */
+ProgressBar.low > Bar > .bar--bar {
+    color: green;
+}
+
+ProgressBar.low > Bar > .bar--complete {
+    color: green;
+}
+
+/* MEDIUM = Yellow */
+ProgressBar.medium > Bar > .bar--bar {
+    color: yellow;
+}
+
+ProgressBar.medium > Bar > .bar--complete {
+    color: yellow;
+}
+
+/* HIGH = Red */
+ProgressBar.high > Bar > .bar--bar {
+    color: red;
+}
+
+ProgressBar.high > Bar > .bar--complete {
+    color: red;
+}  
